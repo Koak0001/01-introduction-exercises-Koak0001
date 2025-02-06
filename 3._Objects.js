@@ -1,33 +1,22 @@
 // --------------------------------------
-// Objects
-// --------------------------------------
-// Exercise 1 - Retrieve value from object by key
+// Exercise 1
 
 const myObject = { message: "Hello, earthling! I bring peace." };
-
-// Log the message 
-
-// --------------------------------------
-// Exercise 2 - Defining an object. 
-
-// Create an object that has your name and age. 
-
+console.log(myObject.message);
 
 // --------------------------------------
-// Exercise 3 - Add a key-value pair 
+// Exercise 2
+
+const myInfo = { name: "YourName", age: YourAge };
+
+// --------------------------------------
+// Exercise 3
 
 const stackOverflow = {};
-
-// make a rule called isAllowed and let the value be true
+stackOverflow.isAllowed = true;
 
 // --------------------------------------
-// Exercise 4 - Remove a property 
+// Exercise 4
 
 const thisSong = { description: "The best song in the world." };
-
-// remove the property "description" and add a property called "about" that should say "Just a tribute." 
-
-
-// --------------------------------------
-
-
+delete thisSong.description;
